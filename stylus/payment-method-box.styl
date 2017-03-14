@@ -1,0 +1,49 @@
+.payment-method-box
+  width 218px
+  height 158px
+  border 1px solid #DDDDDD
+  position relative
+  text-align center
+  float left
+  margin-right 17px
+  margin-bottom 21px
+  &:first-child
+    margin-left 31px
+
+  &--active
+    width 216px
+    height 156px
+    border 2px solid #7cbb22
+
+  &__this-type
+    position absolute
+    top 10px
+    left 10px
+
+  &__this-type--hidden
+    display none
+
+  &__green-circle
+    float none
+    margin 0 auto
+    margin-top 30px
+    width 80px
+    height 80px
+
+  &__icon-type
+    position relative
+    top 16px
+    float none
+
+  &__title
+    color #303030
+    font-size $font-size+6
+    font-family $font
+    margin-top 17px
+    margin-bottom 15px
+
+  &__desc
+    color #555555
+    font-size $font-size+1
+    font-family $font
+    font-weight 400

@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/carousel/js/bundle.js"></script>
+    <script src="/carousel/js/icheck.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="/carousel/css/font-awesome.css">
+    <link rel="stylesheet" href="/carousel/css/style.css">
+    <link rel="stylesheet" href="/carousel/css/ionrange/ion.rangeSlider.css">
+    <link rel="stylesheet" href="/carousel/css/ionrange/ion.rangeSlider.skinNice.css">
+    <link rel="stylesheet" href="/carousel/css/ionrange/normalize.css">
+    <link rel="stylesheet" href="/carousel/css/icheck/skins/square/orange.css">
+
+    <title>product-list</title>
+
+</head>
+<body>
+<div class="body-wrapper">
+    <header class="header">
+        <div class="header__top">
+            <div class="content-wrapper">
+                <div class="header-menu">
+                    <ul class="header-menu__container">
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                заказ
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                оплата
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                получение
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                гарантия и возврат
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                о магазине
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-phone">
+                    <a href="tel:88008000000" class="link link--header-phone">8 800 800 00 00</a>
+                    <span class="header-phone__time">круглосуточно</span>
+                </div>
+                <div class="header-login">
+                    <a href="#" class="link link--login">войти</a>
+                    <a href="#" class="link link--login">регистрация</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="header__bottom">
+            <div class="content-wrapper">
+                <div class="logo">
+                    <img src="/carousel/images/gazeli_logo.png" alt="" class="logo__image"/>
+                </div>
+                <div class="search">
+                    <input type="text" class="search__text" placeholder="Сейчас ищут Lego">
+                    <input type="button" class="btn btn--search" value="найти">
+                </div>
+                <div class="header__btns">
+                    <a href="#" class="btn btn--link"><span class="icon icon--heart"></span>Избранное</a>
+                    <a href="#" class="btn btn--link"><span class="icon icon--cart"></span>Корзина</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="clear"></div>
+
+    <main class="main">
+        <div class="breadcrumbs">
+            <div class="content-wrapper">
+                <div class="main-menu">
+                    <ul class="main-menu__container main-menu__container--product-one">
+                        <li class="main-menu__title"><i class="fa fa-bars" aria-hidden="true"></i>  Каталог товаров</li>
+                        <!--                        <li class="main-menu__item"><a href="" class="main-menu__link">Для девочек</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Для мальчиков</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">До 3-х лет</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Развивающие и обучающие игрушки</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Деревянные игрушки</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Герои</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Бренды</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Конструкторы LEGO</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Куклы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Игровые наборы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Пупсы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Детские кухни</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Солдатики</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Сборные модели</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Трансформеры</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Другое</a></li>-->
+                    </ul>
+                </div>
+                <a href="#" class="breadcrumbs__link breadcrumbs__link--first">Игрушки для мальчиков</a><i class="fa fa-chevron-right breadcrumbs__text"></i><a
+                    href="Игрушечные роботы и трансформеры" class="breadcrumbs__link">Игрушечные роботы и трансформеры</a>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="left-block-wrapper">
+                <div class="filters filters--product-grid">
+                    <div class="filters-checked">
+                        <p class="filters-checked__left-wrapper">
+                            Выбрано 1
+                        </p>
+                        <p class="filters-checked__right-wrapper">
+                            <span class="icon icon--cross"></span>сбросить
+                        </p>
+                    </div>
+                    <div class="filters__range filters__price">
+                        <p class="filters__label filters__label--product-grid">цена</p>
+                        <input type="text" class="filters__range-text filters__range-text--from filters__range--product-grid" placeholder="10">
+                        <input type="text" class="filters__range-text filters__range-text--to filters__range--product-grid" placeholder="100">
+                        <div class="clear"></div>
+                        <input type="text" id="range" name="123" value="" />
+                    </div>
+                    <div class="filters__sex filters__sex--product-grid">
+                        <p class="filters__label filters__label-pl filters__label--product-grid">Пол</p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Мальчик</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">девочка</input>
+                        </p>
+
+                    </div>
+                    <div class="filters__age filters__age--product-grid">
+                        <p class="filters__label filters__label-pl filters__label--product-grid">возраст</p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">0-1</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">1-3</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">4-5</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">6-8</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">9-12</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">12+</input>
+                        </p>
+                    </div>
+                    <div class="filters__brand filters__brand--product-grid">
+                        <p class="filters__label filters__label--pl filters__label--product-grid">бренд</p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Amazing Toys</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Dickle Toys</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Egg Stars</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Furby (Hasbro)</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Happy Well</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Hasbro</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Moose</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Sphero</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">WowWee</input>
+                        </p>
+                        <p class="filters__container">
+                            <input type="checkbox" value="" class="filters__checkbox">Zippy Pets</input>
+                        </p>
+                    </div>
+                    <div class="filters__line filters__line--product-grid">
+                        <p class="filters__label filters__label-pl filters__label--product-grid">линейка</p>
+                    </div>
+                    <div class="filters__show-more filters__show-more--product-grid">
+                        <a class="link link--filter-show-more link--show-more">показать</a>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div class="right-block-wrapper">
+                <div class="products products--product-grid">
+                    <h1 class="h1 h1--product">
+                        Игрушечные роботы и трансформеры
+                    </h1>
+                    <div class="sort-by">
+                        <div class="sort-by__sort">Сортировать:</div>
+                        <div class="sort-by__item sort-by__item--active">по популярности</div>
+                        <div class="sort-by__item">по цене</div>
+                        <div class="sort-by__item">по рейтингу</div>
+                        <div class="sort-by__item">по размеру скидки</div>
+                        <span class="icon icon--grid"></span>
+                        <span class="icon icon--list"></span>
+                    </div>
+
+                    <div class="pl-product-list">
+                        <div class="pl-good">
+                            <div class="pl-good__img-wrapper">
+                                <span class="icon icon--good-1"></span>
+                                <span class="icon icon--good-2"></span>
+                                <img src="/carousel/images/pl-product1.png" alt="" class="pl-good__img">
+                            </div>
+                            <div class="pl-good__text-wrapper">
+                            <p class="pl-good__header"><a class="good__link good__link--product-grid">Трансформер ТОБОТ эволюция Х со звуком
+                                и светом</a></p>
+                                <p class="pl-good__desc">
+                                    Замечательная фигурка Super Hero Mashers обязательно понравится юному поклоннику комиксов о супергероях!
+                                </p>
+                            <img src="/carousel/images/rating.png" alt="" class="rating rating--pl">
+                            </div>
+                            <div class="pl-good__cart-wrapper">
+                                <div class="pl-good__price-wrapper">
+                                <p class="pl-good__price"><span class="pl-d-good__price-price">5690 </span><span class="pl-d-good__price-text">руб.</span></p>
+                                <p class="pl-good__price"><span class="pl-good__price-price">4699 </span> <span class="pl-good__price-text">руб.</span></p>
+                                </div>
+                                <div class="pl-good__btn-wrapper">
+                                <button class="btn btn--pl-buy">Купить</button>
+                                </div>
+                                <div class="pl-good__btn-wrapper">
+                                <button class="btn btn--pl-favorite"><span class="icon icon-pl--heart-white"></span>Отложить</button>
+                                </div>
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="pl-good">
+                            <div class="pl-good__img-wrapper">
+                                <span class="icon icon--good-1"></span>
+                                <span class="icon icon--good-2"></span>
+                                <img src="/carousel/images/pl-product1.png" alt="" class="pl-good__img">
+                            </div>
+                            <div class="pl-good__text-wrapper">
+                                <p class="pl-good__header"><a class="good__link good__link--product-grid">Трансформер ТОБОТ эволюция Х со звуком
+                                    и светом</a></p>
+                                <p class="pl-good__desc">
+                                    Замечательная фигурка Super Hero Mashers обязательно понравится юному поклоннику комиксов о супергероях!
+                                </p>
+                                <img src="/carousel/images/rating.png" alt="" class="rating rating--pl">
+                            </div>
+                            <div class="pl-good__cart-wrapper">
+                                <div class="pl-good__price-wrapper">
+                                    <p class="pl-good__price"><span class="pl-d-good__price-price">5690 </span><span class="pl-d-good__price-text">руб.</span></p>
+                                    <p class="pl-good__price"><span class="pl-good__price-price">4699 </span> <span class="pl-good__price-text">руб.</span></p>
+                                </div>
+                                <div class="pl-good__btn-wrapper">
+                                    <button class="btn btn--pl-buy">Купить</button>
+                                </div>
+                                <div class="pl-good__btn-wrapper">
+                                    <button class="btn btn--pl-favorite"><span class="icon icon-pl--heart-white"></span>Отложить</button>
+                                </div>
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="pl-good">
+                            <div class="pl-good__img-wrapper">
+                                <span class="icon icon--good-1"></span>
+                                <span class="icon icon--good-2"></span>
+                                <img src="/carousel/images/pl-product1.png" alt="" class="pl-good__img">
+                            </div>
+                            <div class="pl-good__text-wrapper">
+                                <p class="pl-good__header"><a class="good__link good__link--product-grid">Трансформер ТОБОТ эволюция Х со звуком
+                                    и светом</a></p>
+                                <p class="pl-good__desc">
+                                    Замечательная фигурка Super Hero Mashers обязательно понравится юному поклоннику комиксов о супергероях!
+                                </p>
+                                <img src="/carousel/images/rating.png" alt="" class="rating rating--pl">
+                            </div>
+                            <div class="pl-good__cart-wrapper">
+                                <div class="pl-good__price-wrapper">
+                                    <p class="pl-good__price"><span class="pl-d-good__price-price">5690 </span><span class="pl-d-good__price-text">руб.</span></p>
+                                    <p class="pl-good__price"><span class="pl-good__price-price">4699 </span> <span class="pl-good__price-text">руб.</span></p>
+                                </div>
+                                <div class="pl-good__btn-wrapper">
+                                    <button class="btn btn--pl-buy">Купить</button>
+                                </div>
+                                <div class="pl-good__btn-wrapper">
+                                    <button class="btn btn--pl-favorite"><span class="icon icon-pl--heart-white"></span>Отложить</button>
+                                </div>
+
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+                <div class="pagination pagination--pl">
+                    <div class="page">
+                        <div class="page__item page__item--active">1</div>
+                        <div class="page__item">2</div>
+                        <div class="page__item">3</div>
+                        <div class="page__item">4</div>
+                        <div class="page__item">4</div>
+                    </div>
+                    <div class="show-by">
+                        <span class="show-by__text">Показать по:</span>
+                        <select class="show-by__select">
+                            <option class="show-by__option">12</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="pl-video">
+                    <div class="pl-video__wrapper">
+                        <section>
+                        <h1 class="pl-video__header">
+                            Популярное видео
+                        </h1>
+                        <div class="pl-video__video-wrapper">
+                            <div class="pl-video__source"><img class="pl-video__img" src="/carousel/images/pg-video1.png">
+                                <p class="pl-video__title">
+                                    Обзор самого популярного набора
+                                    от Hasbro - хит 2016 года!
+                                </p>
+                            </div>
+
+                            <div class="pl-video__source"><img class="pl-video__img" src="/carousel/images/pg-video2.png">
+                                <p class="pl-video__title">
+                                    Обзор самого популярного набора
+                                    от Hasbro - хит 2016 года!
+                                </p>
+                            </div>
+                                <div class="pl-video__source"><img class="pl-video__img" src="/carousel/images/pg-video3.png">
+                                    <p class="pl-video__title">
+                                        Обзор самого популярного набора
+                                        от Hasbro - хит 2016 года!
+                                    </p>
+                                </div>
+                        </div>
+                        <div class="clear"></div>
+                        </section>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </main>
+
+    <div class="clear"></div>
+    <footer class="footer">
+        <div class="content-wrapper">
+            <div class="clear"></div>
+            <div class="footer-menu">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">компания</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Лицензии
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Партнеры
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Вакансии
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu footer-menu--buyers">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">покупателям</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Акции
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Бонусы
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Вопрос-ответ
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Прайс-лист
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Подобрать подарок
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu footer-menu--order">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">мой заказ</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Как заказать
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Оплата
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Получение
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Гарантии и сервис
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Личный кабинет
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <p class="footer-form__title">связаться с нами</p>
+                <p class="footer-form__phone">8 800 800 00 00</p>
+                <p class="footer-form__phone-description">Бесплатно по России, круглосуточно</p>
+                <p class="footer-form__title footer-form__title--sendmail">подпишитесь на рассылку</p>
+                <p class="footer-form__sendmail-description">Будьте в курсе новинок, акций и распродаж</p>
+                <span class="icon icon--mail"></span>
+                <input type="text" class="footer-form__input" placeholder="E-mail">
+                <button class="btn btn--sendmail">подписаться</button>
+            </div>
+            <div class="content-wrapper">
+                <hr class="footer__hr"><div class="clear"></div>
+                <div class="footer__copyright-block">
+                    <p class="footer__copyright">© Газели-карусели. Все права защищены</p>
+                    <a href="" class="footer__politic">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__social">
+                    <span class="footer__social-text">
+                        мы в социальных сетях
+                    </span>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $("#range").ionRangeSlider({
+            type: "double",
+            grid: true
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-orange',
+                radioClass: 'iradio_square-orange',
+                increaseArea: '20%' // optional
+            });
+        });
+    </script>
+
+
+</body>
+</html>

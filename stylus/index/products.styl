@@ -1,0 +1,84 @@
+.products
+  width 852px
+  float right
+  height 468px
+  border 1px solid #ddd
+  border-radius 3px
+
+  &--product-grid
+    position relative
+    left 25px
+    margin-top 30px
+    width 854px
+    height 100%
+    margin-left 25px
+    border 0
+
+  &__tab
+    width 426px
+    height 196px
+    margin-top 30px
+    float left
+
+  &__row
+    width 388px
+    height 100%
+
+.products__row--product-grid
+  width 100%
+  height 435px
+  margin-bottom 20px
+
+&__tab-title
+  font-size $font-size+ 8
+  font-family $font
+  color $second-font-color
+
+&__section
+  display none
+  background #fff
+  width 100%
+  height 100%
+
+#tab1:checked ~ #content-tab1, #tab2:checked ~ #content-tab2, #tab3:checked ~ #content-tab3, #tab4:checked ~ #content-tab4
+  display block
+
+#tab1 ~ #content-tab1, #tab2 ~ #content-tab2, #tab3 ~ #content-tab3, #tab4 ~ #content-tab4
+  display: none
+
+.products__tab-input
+  display none
+  position absolute
+  &:checked + label
+    color $second-font-color
+    font-family $font
+    background #fff
+    border-left 0
+    border-right 0
+    border-bottom 0
+    width 426px
+    height 50px
+    border 0
+
+.products__tab-label
+  display block
+  width 424px
+  float left
+  text-align center
+  font-size $font-size+ 8
+  font-family $font
+  color $second-font-color
+  background #f3f3f3
+  height 48px
+  line-height 48px
+  border 1px solid #dddddd
+
+.products__title
+  font-weight 400
+  font-family $font
+  font-size 20px
+  color $second-font-color
+  display inline
+
+.products__title--dashed
+  border-bottom 1px dashed $second-font-color

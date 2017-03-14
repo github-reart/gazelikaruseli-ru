@@ -1,0 +1,35 @@
+.action-goods
+  width 100%
+  background #f3f3f3
+  height 50px
+  line-height 50px
+  border-radius 5px
+  margin-bottom 20px
+
+  &__container
+    list-style none
+    margin 0px
+    padding 0px
+    text-align center
+
+  &__item
+    float left
+    width 220px
+
+    &--active
+      background #7cbb22
+      border-radius 5px
+
+  &__link, &__link:visited
+    text-decoration none
+    border-bottom 1px dashed #000000
+    font-family $font
+    color $second-font-color
+    font-size $font-size+6
+    font-weight 400
+    margin-left 10px
+
+    &--active
+      color $white
+      border 0
+      font-family $font

@@ -1,0 +1,44 @@
+.tabs
+  &--checkout
+    height 80px
+    background #FFFFFF
+    line-height 80px
+    border-bottom 1px solid #DDDDDD
+    margin-bottom 55px
+
+  &__input
+    display none
+    position absolute
+
+  &__tab
+    display block
+    float left
+    text-align center
+    font-size $font-size+ 8
+    font-family $font
+    color $second-font-color
+    font-weight 400
+    height 80px
+    line-height 80px
+    border 0
+    padding 0
+    width 33.3%
+    &:last-child
+      width 33.4%
+
+  &__checkout-step
+    position relative
+    top 24px
+    left 40px
+
+  &__tab--active
+    height 75px
+    border-bottom 5px solid #7cbb22
+
+
+
+#tab1:checked ~ #content-tab1, #tab2:checked ~ #content-tab2, #tab3:checked ~ #content-tab3, #tab4:checked ~ #content-tab4
+  display block
+
+#tab1 ~ #content-tab1, #tab2 ~ #content-tab2, #tab3 ~ #content-tab3, #tab4 ~ #content-tab4
+  display: none

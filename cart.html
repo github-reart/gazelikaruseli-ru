@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/carousel/js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="/carousel/css/style.css">
+    <link rel="stylesheet" href="/carousel/css/font-awesome.css">
+    <link rel="stylesheet" href="/carousel/css/ionrange/ion.rangeSlider.css">
+    <link rel="stylesheet" href="/carousel/css/ionrange/ion.rangeSlider.skinNice.css">
+    <link rel="stylesheet" href="/carousel/css/normalize.css">
+    <title>cart</title>
+</head>
+<body>
+<div class="wrapper--body">
+    <header class="header">
+        <div class="header__top">
+            <div class="wrapper--content">
+                <div class="header-menu">
+                    <ul class="header-menu__container">
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                заказ
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                оплата
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                получение
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                гарантия и возврат
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                о магазине
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-phone">
+                    <a href="tel:88008000000" class="link link--header-phone">8 800 800 00 00</a>
+                    <span class="header-phone__time">круглосуточно</span>
+                </div>
+                <div class="header-login">
+                    <a href="#" class="link link--login">войти</a>
+                    <a href="#" class="link link--login">регистрация</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="header__bottom">
+            <div class="wrapper--content">
+                <div class="logo">
+                    <img src="/carousel/images/gazeli_logo.png" alt="" class="logo__image"/>
+                </div>
+                <div class="search">
+                    <input type="text" class="search__text" placeholder="Сейчас ищут Lego">
+                    <input type="button" class="btn btn--search" value="найти">
+                </div>
+                <div class="header__btns">
+                    <a href="#" class="btn btn--link"><span class="icon icon--heart"></span>Избранное</a>
+                    <a href="#" class="btn btn--link"><span class="icon icon--cart"></span>Корзина</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="clear"></div>
+
+
+
+    <main class="main">
+        <div class="breadcrumbs">
+            <div class="wrapper--content">
+                <div class="main-menu">
+                    <ul class="main-menu__container main-menu__container--product-one">
+                        <li class="main-menu__title"><i class="fa fa-bars" aria-hidden="true"></i>  Каталог товаров</li>
+                        <!--                        <li class="main-menu__item"><a href="" class="main-menu__link">Для девочек</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Для мальчиков</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">До 3-х лет</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Развивающие и обучающие игрушки</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Деревянные игрушки</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Герои</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Бренды</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Конструкторы LEGO</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Куклы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Игровые наборы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Пупсы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Детские кухни</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Солдатики</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Сборные модели</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Трансформеры</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Другое</a></li>-->
+                    </ul>
+                </div>
+                <a href="#" class="breadcrumbs__link breadcrumbs__link--first">Главная</a><i class="fa fa-chevron-right breadcrumbs__text"></i><a
+                    href="Игрушечные роботы и трансформеры" class="breadcrumbs__link">Блоги</a>
+            </div>
+        </div>
+        <div class="wrapper--content">
+            <h1 class="h1 h1--page-title">Корзина</h1>
+        </div>
+        <div class="wrapper--content">
+            <div class="tabs--checkout">
+                <label for="tab1" class="tabs__tab tabs__tab--active" title="Характеристики">
+                    <div class="circle circle--tab tabs__checkout-step">1</div>
+                    <a href="#" class="link link--tab-active">
+                        Ваша корзина
+                    </a>
+                </label>
+                <input id="tab1" class="tabs__input" type="radio" name="tabs">
+
+                <label for="tab2" class="tabs__tab" title="Отзывы">
+                    <div class="circle circle--tab tabs__checkout-step">2</div>
+                    <a href="#" class="link link--tab-no-border">
+                        Оформление заказа
+                    </a>
+                </label>
+                <input id="tab2" class="tabs__input" type="radio" name="tabs">
+
+                <label for="tab3" class="tabs__tab" title="Аксессуары">
+                    <div class="circle circle--tab tabs__checkout-step">3</div>
+                    <a href="#" class="link link--tab-no-border">
+                        Подтверждение заказа
+                    </a>
+                </label>
+                <input id="tab3" class="tabs__input" type="radio" name="tabs">
+            </div>
+            <div id="content-tab1" class="tabs__content-tab">
+            </div>
+            <div class="clear"></div>
+            <div class="page-cart__product-cart">
+                <div class="page-cart__cart-th">
+                <div class="page-cart__th page-cart__product-th">Товары</div>
+                <div class="page-cart__th page-cart__price-th">Цена</div>
+                <div class="page-cart__th page-cart__qty-th">Количество</div>
+                <div class="page-cart__th page-cart__sum-th">Сумма</div>
+            </div>
+                <div class="page-cart__product">
+                <img class="page-cart__product-img" src="/carousel/images/product1.png">
+                <div class="page-cart__product-info">
+                    <p class="page-cart__product-title">Игрушка Hasbro Лидер Айронхайд</p>
+                    <p class="articul">Артикул: 297384</p>
+                </div>
+                <div class="page-cart__price-info">
+                    <p class="price__price--page-cart">4699 <span class="price__text--page-cart">руб.</span></p>
+                    <p class="price__price--discount-page-cart">5690 руб.</p>
+
+                </div>
+                <div class="page-cart__qty-info">
+                    <div class="page-cart__qty-wrapper">
+                    <span class="page-cart__qty-col icon icon--minus"></span>
+                    <span class="page-cart__qty-col page-cart__qty-value">1</span>
+                    <span class="page-cart__qty-col icon icon--plus"></span>
+                    </div>
+                </div>
+                <div class="page-cart__sum-info">
+                    <span class="pg-good__price-price">4699</span>
+                    <span class="pg-good__price-text">руб.</span>
+                </div>
+                <div class="page-cart__more">
+                    <span class="icon icon--delete page-cart__delete"></span>
+                    <span class="icon icon--heart-white page-cart__favorite"></span>
+                </div>
+                <div class="clear"></div>
+            </div>
+                <div class="page-cart__product">
+                    <img class="page-cart__product-img" src="/carousel/images/product1.png">
+                    <div class="page-cart__product-info">
+                        <p class="page-cart__product-title">Игрушка Hasbro Лидер Айронхайд</p>
+                        <p class="articul">Артикул: 297384</p>
+                    </div>
+                    <div class="page-cart__price-info">
+                        <p class="price__price--page-cart">4699 <span class="price__text--page-cart">руб.</span></p>
+                        <p class="price__price--discount-page-cart">5690 руб.</p>
+
+                    </div>
+                    <div class="page-cart__qty-info">
+                        <div class="page-cart__qty-wrapper">
+                            <span class="page-cart__qty-col icon icon--minus"></span>
+                            <span class="page-cart__qty-col page-cart__qty-value">1</span>
+                            <span class="page-cart__qty-col icon icon--plus"></span>
+                        </div>
+                    </div>
+                    <div class="page-cart__sum-info">
+                        <span class="pg-good__price-price">4699</span>
+                        <span class="pg-good__price-text">руб.</span>
+                    </div>
+                    <div class="page-cart__more">
+                        <span class="icon icon--delete page-cart__delete"></span>
+                        <span class="icon icon--heart-white page-cart__favorite"></span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="coupon page-cart__coupon">
+                <span class="icon icon--star coupon__icon-star"></span>
+                <input type="text" placeholder="Введите код купона" class="coupon__input">
+                <a href="#" class="link link--coupon coupon__link">Применить купон</a>
+            </div>
+            <div class="page-cart__cart-box">
+                <div class="page-cart__products-sum">
+                    <p class="page-cart__products-sum-text">Товаров на:</p>
+                    <p class="page-cart__products-sum-price">28 300 р.</p>
+                </div>
+                <span class="hr--page-cart"></span>
+                <div class="page-cart__in-total">
+                    <span class="page-cart__in-total-text">Итого</span>
+                    <span class="page-cart__in-total-price">28 300 р.</span>
+                    <div class="clear"></div>
+                </div>
+                <a href="#" class="btn btn--cart page-cart__btn-buy">оформить заказ</a>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div class="clear"></div>
+    <footer class="footer">
+        <div class="wrapper--content">
+            <div class="clear"></div>
+            <div class="footer-menu">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">компания</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Лицензии
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Партнеры
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Вакансии
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu footer-menu--buyers">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">покупателям</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Акции
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Бонусы
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Вопрос-ответ
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Прайс-лист
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Подобрать подарок
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu footer-menu--order">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">мой заказ</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Как заказать
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Оплата
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Получение
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Гарантии и сервис
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Личный кабинет
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <p class="footer-form__title">связаться с нами</p>
+                <p class="footer-form__phone">8 800 800 00 00</p>
+                <p class="footer-form__phone-description">Бесплатно по России, круглосуточно</p>
+                <p class="footer-form__title footer-form__title--sendmail">подпишитесь на рассылку</p>
+                <p class="footer-form__sendmail-description">Будьте в курсе новинок, акций и распродаж</p>
+                <span class="icon icon--mail"></span>
+                <input type="text" class="footer-form__input" placeholder="E-mail">
+                <button class="btn btn--sendmail">подписаться</button>
+            </div>
+            <div class="wrapper--content">
+                <hr class="footer__hr">
+                <div class="clear"></div>
+                <div class="footer__copyright-block">
+                    <p class="footer__copyright">© Газели-карусели. Все права защищены</p>
+                    <a href="" class="footer__politic">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__social">
+                    <span class="footer__social-text">
+                        мы в социальных сетях
+                    </span>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script>
+    $("#range").ionRangeSlider({
+        type: "double",
+        grid: true
+    });
+</script>
+</body>
+</html>

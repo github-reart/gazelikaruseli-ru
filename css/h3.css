@@ -1,0 +1,11 @@
+.h3 {
+  text-decoration: none;
+  color: #3f4647;
+  font-size: $font-size14;
+  font-family: $font;
+}
+.h3--news {
+  color: $second-font-color;
+  margin-bottom: 30px;
+  font-weight: 400;
+}

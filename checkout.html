@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/carousel/js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="/carousel/css/style.css">
+    <link rel="stylesheet" href="/carousel/css/font-awesome.css">
+    <link rel="stylesheet" href="/carousel/css/ionrange/ion.rangeSlider.css">
+    <link rel="stylesheet" href="/carousel/css/ionrange/ion.rangeSlider.skinNice.css">
+    <link rel="stylesheet" href="/carousel/css/normalize.css">
+    <title>checkout</title>
+</head>
+<body>
+<div class="wrapper--body">
+    <header class="header">
+        <div class="header__top">
+            <div class="wrapper--content">
+                <div class="header-menu">
+                    <ul class="header-menu__container">
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                заказ
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                оплата
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                получение
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                гарантия и возврат
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="link link--header-menu">
+                                о магазине
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-phone">
+                    <a href="tel:88008000000" class="link link--header-phone">8 800 800 00 00</a>
+                    <span class="header-phone__time">круглосуточно</span>
+                </div>
+                <div class="header-login">
+                    <a href="#" class="link link--login">войти</a>
+                    <a href="#" class="link link--login">регистрация</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="header__bottom">
+            <div class="wrapper--content">
+                <div class="logo">
+                    <img src="/carousel/images/gazeli_logo.png" alt="" class="logo__image"/>
+                </div>
+                <div class="search">
+                    <input type="text" class="search__text" placeholder="Сейчас ищут Lego">
+                    <input type="button" class="btn btn--search" value="найти">
+                </div>
+                <div class="header__btns">
+                    <a href="#" class="btn btn--link"><span class="icon icon--heart"></span>Избранное</a>
+                    <a href="#" class="btn btn--link"><span class="icon icon--cart"></span>Корзина</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="clear"></div>
+
+
+
+    <main class="main">
+        <div class="breadcrumbs">
+            <div class="wrapper--content">
+                <div class="main-menu">
+                    <ul class="main-menu__container main-menu__container--product-one">
+                        <li class="main-menu__title"><i class="fa fa-bars" aria-hidden="true"></i>  Каталог товаров</li>
+                        <!--                        <li class="main-menu__item"><a href="" class="main-menu__link">Для девочек</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Для мальчиков</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">До 3-х лет</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Развивающие и обучающие игрушки</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Деревянные игрушки</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Герои</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Бренды</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Конструкторы LEGO</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Куклы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Игровые наборы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Пупсы</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Детские кухни</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Солдатики</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Сборные модели</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Трансформеры</a></li>
+                                                <li class="main-menu__item"><a href="" class="main-menu__link">Другое</a></li>-->
+                    </ul>
+                </div>
+                <a href="#" class="breadcrumbs__link breadcrumbs__link--first">Главная</a><i class="fa fa-chevron-right breadcrumbs__text"></i><a
+                    href="Игрушечные роботы и трансформеры" class="breadcrumbs__link">Блоги</a>
+            </div>
+        </div>
+        <div class="wrapper--content">
+            <h1 class="h1 h1--page-title">Корзина</h1>
+        </div>
+        <div class="wrapper--content">
+            <div class="tabs--checkout">
+                <label for="tab1" class="tabs__tab tabs__tab--active" title="Характеристики">
+                    <div class="circle circle--tab circle--green tabs__checkout-step"><span class="icon icon--check"></span></div>
+                    <a href="#" class="link link--tab-active link--tab-confirmed">
+                        Ваша корзина
+                    </a>
+                </label>
+                <input id="tab1" class="tabs__input" type="radio" name="tabs">
+
+                <label for="tab2" class="tabs__tab tabs__tab--active" title="Отзывы">
+                    <div class="circle circle--tab tabs__checkout-step">2</div>
+                    <a href="#" class="link link--tab-no-border">
+                        Оформление заказа
+                    </a>
+                </label>
+                <input id="tab2" class="tabs__input" type="radio" name="tabs">
+
+                <label for="tab3" class="tabs__tab" title="Аксессуары">
+                    <div class="circle circle--tab tabs__checkout-step">3</div>
+                    <a href="#" class="link link--tab-no-border">
+                        Подтверждение заказа
+                    </a>
+                </label>
+                <input id="tab3" class="tabs__input" type="radio" name="tabs">
+            </div>
+            <div id="content-tab1" class="tabs__content-tab">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="wrapper--content">
+            <div class="wrapper--checkout-left-block">
+            <div class="checkout-form">
+                <div class="checkout-form__header">
+                    <div class="checkout-form__number">
+                        1
+                    </div>
+                    <div class="checkout-form__title">
+                        <h3 class="checkout-form__title-text">Ваши контактные данные</h3>
+                    </div>
+                </div>
+                <div class="checkout-form__content">
+                    <div class="checkout-form__form-group checkout-form__form-group--name">
+                        <p class="checkout-form__form-text">Ваше имя *</p>
+                        <input type="text" class="checkout-form__input">
+                    </div>
+                    <div class="checkout-form__form-group checkout-form__form-group--email">
+                        <p class="checkout-form__form-text">E-mail *</p>
+                        <input type="text" class="checkout-form__input">
+                    </div>
+                    <div class="checkout-form__form-group checkout-form__form-group--phone">
+                        <p class="checkout-form__form-text">Ваш телефон *</p>
+                        <input type="text" class="checkout-form__input">
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-form">
+                <div class="checkout-form__header">
+                    <div class="checkout-form__number">
+                        2
+                    </div>
+                    <div class="checkout-form__title">
+                        <h3 class="checkout-form__title-text">Вид доставки</h3>
+                    </div>
+                </div>
+                <div class="checkout-form__content checkout-form__content--delivery-type">
+                    <div class="delivery-type-box delivery-type-box--active">
+                        <span class="icon icon--ok-big delivery-type-box__this-type"></span>
+                        <div class="circle circle--green delivery-type-box__green-circle">
+                            <span class="icon icon--delivery-type1 delivery-type-box__icon-type"></span>
+                        </div>
+                        <p class="delivery-type-box__title">Доставка курьером</p>
+                        <p class="delivery-type-box__desc">Доставка по Москве от 300 рублей.</p>
+                    </div>
+                    <div class="delivery-type-box">
+                        <span class="icon icon--ok-big delivery-type-box__this-type--hide"></span>
+                        <div class="circle delivery-type-box__green-circle">
+                            <span class="icon icon--delivery-type2 delivery-type-box__icon-type"></span>
+                        </div>
+                        <p class="delivery-type-box__title">Доставка курьером</p>
+                        <p class="delivery-type-box__desc">Доставка по Москве от 300 рублей.</p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="delivery-time-box">
+                        <div class="delivery-time-box__delivery-time">
+                            <p class="delivery-time-box__text">Выберите удобное время доставки</p>
+                            <input type="text" class="delivery-time-box__date" placeholder="4 сентября">
+                            <input type="text" class="delivery-time-box__time" placeholder="12:00-14:00">
+                        </div>
+                        <div class="delivery-time-box__delivery-price">
+                            <p class="delivery-time-box__text">Стоимость доставки</p>
+                            <span class="price__price--checkout">350</span>
+                            <span class="price__text--checkout">руб.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-form">
+                <div class="checkout-form__header">
+                    <div class="checkout-form__number">
+                        3
+                    </div>
+                    <div class="checkout-form__title">
+                        <h3 class="checkout-form__title-text">Куда доставить</h3>
+                    </div>
+                </div>
+                <div class="checkout-form__content checkout-form__content--address">
+                    <div class="checkout-form__form-group checkout-form__form-group--name">
+                        <p class="checkout-form__form-text">Город *</p>
+                        <input type="text" class="checkout-form__input">
+                    </div>
+                    <div class="checkout-form__form-group checkout-form__form-group--email">
+                        <p class="checkout-form__form-text">Улица *</p>
+                        <input type="text" class="checkout-form__input">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="checkout-form__form-group checkout-form__form-group--small">
+                        <p class="checkout-form__form-text">Дом *</p>
+                        <input type="text" class="checkout-form__input checkout-form__input--small">
+                    </div>
+                    <div class="checkout-form__form-group checkout-form__form-group--small">
+                        <p class="checkout-form__form-text">Корпус</p>
+                        <input type="text" class="checkout-form__input checkout-form__input--small">
+                    </div>
+                    <div class="checkout-form__form-group checkout-form__form-group--small">
+                        <p class="checkout-form__form-text">Строение</p>
+                        <input type="text" class="checkout-form__input checkout-form__input--small">
+                    </div>
+                    <div class="checkout-form__form-group checkout-form__form-group--small">
+                        <p class="checkout-form__form-text">Квартира</p>
+                        <input type="text" class="checkout-form__input checkout-form__input--small">
+                    </div>
+                    <div class="checkout-form__form-group checkout-form__form-group--small">
+                        <p class="checkout-form__form-text">Офис</p>
+                        <input type="text" class="checkout-form__input checkout-form__input--small">
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-form">
+                <div class="checkout-form__header">
+                    <div class="checkout-form__number">
+                        4
+                    </div>
+                    <div class="checkout-form__title">
+                        <h3 class="checkout-form__title-text">Способы оплаты</h3>
+                    </div>
+                </div>
+                <div class="checkout-form__content checkout-form__content--payment-method">
+                    <div class="payment-method-box payment-method-box--active">
+                        <span class="icon icon--ok-big payment-method-box__this-type"></span>
+                        <div class="circle circle--green payment-method-box__green-circle">
+                            <span class="icon icon--payment-type1 payment-method-box__icon-type"></span>
+                        </div>
+                        <p class="payment-method-box__title">Наличными</p>
+                    </div>
+                    <div class="payment-method-box payment-method-box">
+                        <span class="icon icon--ok-big payment-method-box__this-type--hidden"></span>
+                        <div class="circle payment-method-box__green-circle">
+                            <span class="icon icon--payment-type2 payment-method-box__icon-type"></span>
+                        </div>
+                        <p class="payment-method-box__title">Банковской картой</p>
+                    </div>
+                    <div class="payment-method-box payment-method-box">
+                        <span class="icon icon--ok-big payment-method-box__this-type--hidden"></span>
+                        <div class="circle payment-method-box__green-circle">
+                            <span class="icon icon--payment-type3 payment-method-box__icon-type"></span>
+                        </div>
+                        <p class="payment-method-box__title">Яндекс. Деньги</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="clear"></div>
+            </div>
+            <div class="wrapper--checkout-right-block">
+                <div class="checkout-confirm-form">
+                    <p class="checkout-confirm-form__title">Ваш заказ</p>
+                    <div class="checkout-confirm-form__info-wrapper">
+                        <div class="checkout-confirm-form__product-info-wrapper">
+                        <div class="checkout-confirm-form__left-text">
+                            <p class="checkout-confirm-form__product-qty-text">Товаров</p>
+                            <p class="checkout-confirm-form__product-sum-text">На сумму</p>
+                        </div>
+                        <div class="checkout-confirm-form__right-text">
+                            <p class="checkout-confirm-form__product-qty-qty">2 шт</p>
+                            <p class="price__price--checkout-buy-box">
+                            28 300<span class="price__text--checkout-buy-box"> Р.</span>
+                            </p>
+
+                        </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="coupon checkout-confirm-form__coupon">
+                            <input type="text" placeholder="Введите код купона" class="coupon__input coupon__input--page-checkout">
+                            <a href="#" class="link link--coupon coupon__link">Применить купон</a>
+                        </div>
+                        <span class="hr--page-checkout"></span>
+                        <div class="checkout-confirm-form__in-total">
+                            <span class="checkout-confirm-form__in-total-text">Итого</span>
+                            <span class="checkout-confirm-form__in-total-price">28 300 р.</span>
+                            <div class="clear"></div>
+                        </div>
+                        <a href="#" class="btn btn--checkout">Оформить заказ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div class="clear"></div>
+    <footer class="footer">
+        <div class="wrapper--content">
+            <div class="clear"></div>
+            <div class="footer-menu">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">компания</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Лицензии
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Партнеры
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Вакансии
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu footer-menu--buyers">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">покупателям</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Акции
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Бонусы
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Вопрос-ответ
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Прайс-лист
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Подобрать подарок
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu footer-menu--order">
+                <ul class="footer-menu__container">
+                    <li class="footer-menu__item">
+                        <p class="footer-menu__title">мой заказ</p>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Как заказать
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Оплата
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Получение
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Гарантии и сервис
+                        </a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a href="#" class="footer-menu__link">
+                            Личный кабинет
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <p class="footer-form__title">связаться с нами</p>
+                <p class="footer-form__phone">8 800 800 00 00</p>
+                <p class="footer-form__phone-description">Бесплатно по России, круглосуточно</p>
+                <p class="footer-form__title footer-form__title--sendmail">подпишитесь на рассылку</p>
+                <p class="footer-form__sendmail-description">Будьте в курсе новинок, акций и распродаж</p>
+                <span class="icon icon--mail"></span>
+                <input type="text" class="footer-form__input" placeholder="E-mail">
+                <button class="btn btn--sendmail">подписаться</button>
+            </div>
+            <div class="wrapper--content">
+                <hr class="footer__hr">
+                <div class="clear"></div>
+                <div class="footer__copyright-block">
+                    <p class="footer__copyright">© Газели-карусели. Все права защищены</p>
+                    <a href="" class="footer__politic">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__social">
+                    <span class="footer__social-text">
+                        мы в социальных сетях
+                    </span>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="circle circle--social">
+                        <a class="link link--icon" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script>
+    $("#range").ionRangeSlider({
+        type: "double",
+        grid: true
+    });
+</script>
+</body>
+</html>
