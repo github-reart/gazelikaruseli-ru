@@ -2375,7 +2375,7 @@
 }
 .body-wrapper--main {
   height: 400px;
-  background: url("/carousel/images/header-background.png") repeat-x;
+  background: url("/images/header-background.png") repeat-x;
 }
 .content-wrapper {
   width: 1148px;
@@ -2865,7 +2865,7 @@
   -webkit-background-size: cover !important;
 }
 .icon--heart {
-  background: url("/carousel/images/icon-heart.png") no-repeat 50% 50%;
+  background: url("/images/icon-heart.png") no-repeat 50% 50%;
   width: 20px;
   height: 18px;
   top: 5px;
@@ -2873,7 +2873,7 @@
   position: relative;
 }
 .icon--cart {
-  background: url("/carousel/images/icon-cart.png") no-repeat 50% 50%;
+  background: url("/images/icon-cart.png") no-repeat 50% 50%;
   width: 18px;
   height: 18px;
   top: 5px;
@@ -2884,7 +2884,7 @@
   width: 36px;
   height: 36px;
   position: relative;
-  background: url("/carousel/images/icon-new.png") no-repeat 50% 50%;
+  background: url("/images/icon-new.png") no-repeat 50% 50%;
   float: left;
   top: 7px;
   left: 50px;
@@ -2893,7 +2893,7 @@
   width: 36px;
   height: 36px;
   position: relative;
-  background: url("/carousel/images/icon-hot.png") no-repeat 50% 50%;
+  background: url("/images/icon-hot.png") no-repeat 50% 50%;
   float: left;
   top: 7px;
   left: 43px;
@@ -2902,7 +2902,7 @@
   width: 36px;
   height: 36px;
   position: relative;
-  background: url("/carousel/images/icon-precent.png") no-repeat 50% 50%;
+  background: url("/images/icon-precent.png") no-repeat 50% 50%;
   float: left;
   top: 7px;
   left: 38px;
@@ -2911,7 +2911,7 @@
   width: 36px;
   height: 36px;
   position: relative;
-  background: url("/carousel/images/icon-star.png") no-repeat 50% 50%;
+  background: url("/images/icon-star.png") no-repeat 50% 50%;
   float: left;
   top: 7px;
   left: 38px;
@@ -2922,7 +2922,7 @@
   height: 36px;
   top: 10px;
   left: 10px;
-  background: url("/carousel/images/icon-new--green.png") no-repeat 50% 50%;
+  background: url("/images/icon-new--green.png") no-repeat 50% 50%;
 }
 .icon--good-new {
   position: absolute;
@@ -2930,7 +2930,7 @@
   height: 36px;
   top: 10px;
   left: 10px;
-  background: url("/carousel/images/icon-new--green.png") no-repeat 50% 50%;
+  background: url("/images/icon-new--green.png") no-repeat 50% 50%;
 }
 .icon--good-2 {
   position: absolute;
@@ -2938,7 +2938,7 @@
   height: 36px;
   top: 52px;
   left: 10px;
-  background: url("/carousel/images/icon-precent--orange.png") no-repeat 50% 50%;
+  background: url("/images/icon-precent--orange.png") no-repeat 50% 50%;
 }
 .icon--p-product-hot {
   position: absolute;
@@ -2946,7 +2946,7 @@
   height: 36px;
   top: -10px;
   left: 5px;
-  background: url("/carousel/images/icon-precent--orange.png") no-repeat 50% 50%;
+  background: url("/images/icon-precent--orange.png") no-repeat 50% 50%;
 }
 .icon--p-product-star {
   position: absolute;
@@ -2954,14 +2954,14 @@
   height: 36px;
   top: 32px;
   left: 5px;
-  background: url("/carousel/images/icon-star--blue.png") no-repeat 50% 50%;
+  background: url("/images/icon-star--blue.png") no-repeat 50% 50%;
 }
 .icon--mail {
   position: relative;
   width: 48px;
   height: 48px;
   top: 20px;
-  background: url("/carousel/images/icon-mail.png") no-repeat 50% 50%;
+  background: url("/images/icon-mail.png") no-repeat 50% 50%;
 }
 .icon--list {
   position: relative;
@@ -2969,14 +2969,14 @@
   width: 17px;
   height: 17px;
   margin-right: 12px;
-  background: url("/carousel/images/icon-list.png") no-repeat 50% 50%;
+  background: url("/images/icon-list.png") no-repeat 50% 50%;
 }
 .icon--grid {
   position: relative;
   float: right;
   width: 17px;
   height: 17px;
-  background: url("/carousel/images/icon-grid.png") no-repeat 50% 50%;
+  background: url("/images/icon-grid.png") no-repeat 50% 50%;
 }
 .icon--heart-white {
   top: 10px;
@@ -2985,7 +2985,7 @@
   float: right;
   width: 20px;
   height: 18px;
-  background: url("/carousel/images/icon-heart--white.png") no-repeat 50% 50%;
+  background: url("/images/icon-heart--white.png") no-repeat 50% 50%;
 }
 .icon--delete {
   top: 10px;
@@ -2994,7 +2994,7 @@
   float: right;
   width: 20px;
   height: 18px;
-  background: url("/carousel/images/icon-delete.png") no-repeat 50% 50%;
+  background: url("/images/icon-delete.png") no-repeat 50% 50%;
 }
 .icon-pl--heart-white {
   top: 5px;
@@ -3002,7 +3002,7 @@
   position: relative;
   width: 20px;
   height: 18px;
-  background: url("/carousel/images/icon-heart--white.png") no-repeat 50% 50%;
+  background: url("/images/icon-heart--white.png") no-repeat 50% 50%;
 }
 .icon-p--heart-white {
   top: 5px;
@@ -3010,7 +3010,7 @@
   position: relative;
   width: 20px;
   height: 18px;
-  background: url("/carousel/images/icon-heart--white.png") no-repeat 50% 50%;
+  background: url("/images/icon-heart--white.png") no-repeat 50% 50%;
 }
 .icon-p--cart-white {
   top: 5px;
@@ -3018,14 +3018,14 @@
   position: relative;
   width: 20px;
   height: 18px;
-  background: url("/carousel/images/icon-cart--white.png") no-repeat 50% 50%;
+  background: url("/images/icon-cart--white.png") no-repeat 50% 50%;
 }
 .icon--cross {
   right: 5px;
   position: relative;
   width: 8px;
   height: 8px;
-  background: url("/carousel/images/icon-cross.png") no-repeat 50% 50%;
+  background: url("/images/icon-cross.png") no-repeat 50% 50%;
 }
 .icon--ok {
   left: 5px;
@@ -3034,13 +3034,13 @@
   position: relative;
   width: 15px;
   height: 15px;
-  background: url("/carousel/images/icon-ok.png") no-repeat 50% 50%;
+  background: url("/images/icon-ok.png") no-repeat 50% 50%;
 }
 .icon--ok-big {
   position: relative;
   width: 24px;
   height: 24px;
-  background: url("/carousel/images/icon-ok--big.png") no-repeat 50% 50%;
+  background: url("/images/icon-ok--big.png") no-repeat 50% 50%;
 }
 .icon--delivery {
   left: 5px;
@@ -3050,75 +3050,75 @@
   position: relative;
   width: 48px;
   height: 24px;
-  background: url("/carousel/images/icon-delivery.png") no-repeat 50% 50%;
+  background: url("/images/icon-delivery.png") no-repeat 50% 50%;
 }
 .icon--arrow-left {
   float: left;
   position: relative;
   width: 9px;
   height: 16px;
-  background: url("/carousel/images/icon-arrow--left.png") no-repeat 50% 50%;
+  background: url("/images/icon-arrow--left.png") no-repeat 50% 50%;
 }
 .icon--arrow-right {
   float: right;
   position: relative;
   width: 9px;
   height: 16px;
-  background: url("/carousel/images/icon-arrow--right.png") no-repeat 50% 50%;
+  background: url("/images/icon-arrow--right.png") no-repeat 50% 50%;
 }
 .icon--plus {
   float: right;
   position: relative;
   width: 13px;
   height: 13px;
-  background: url("/carousel/images/icon-plus.png") no-repeat 50% 50%;
+  background: url("/images/icon-plus.png") no-repeat 50% 50%;
 }
 .icon--minus {
   float: left;
   position: relative;
   width: 13px;
   height: 13px;
-  background: url("/carousel/images/icon-minus.png") no-repeat 50% 50%;
+  background: url("/images/icon-minus.png") no-repeat 50% 50%;
 }
 .icon--delivery-type1 {
   float: left;
   position: relative;
   width: 48px;
   height: 24px;
-  background: url("/carousel/images/icon-delivery-type1.png") no-repeat 50% 50%;
+  background: url("/images/icon-delivery-type1.png") no-repeat 50% 50%;
 }
 .icon--delivery-type2 {
   float: left;
   position: relative;
   width: 48px;
   height: 48px;
-  background: url("/carousel/images/icon-delivery-type2.png") no-repeat 50% 50%;
+  background: url("/images/icon-delivery-type2.png") no-repeat 50% 50%;
 }
 .icon--payment-type1 {
   float: left;
   position: relative;
   width: 48px;
   height: 48px;
-  background: url("/carousel/images/icon-cash.png") no-repeat 50% 50%;
+  background: url("/images/icon-cash.png") no-repeat 50% 50%;
 }
 .icon--payment-type2 {
   float: left;
   position: relative;
   width: 48px;
   height: 48px;
-  background: url("/carousel/images/icon-card.png") no-repeat 50% 50%;
+  background: url("/images/icon-card.png") no-repeat 50% 50%;
 }
 .icon--payment-type3 {
   float: left;
   position: relative;
   width: 48px;
   height: 48px;
-  background: url("/carousel/images/icon-ya-money.png") no-repeat 50% 50%;
+  background: url("/images/icon-ya-money.png") no-repeat 50% 50%;
 }
 .icon--check {
   float: left;
   position: relative;
-  background: url("/carousel/images/icon-check.png") no-repeat 50% 50%;
+  background: url("/images/icon-check.png") no-repeat 50% 50%;
 }
 .clear {
   clear: both;
@@ -3567,7 +3567,7 @@
 }
 body {
   width: 100%;
-  background: url("/carousel/images/background.png");
+  background: url("/images/background.png");
 }
 .banner {
   width: 854px;
@@ -3730,7 +3730,7 @@ __section {
   border-bottom: 1px dashed #333;
 }
 .filters {
-  background: url("/carousel/images/bg-filter.png") no-repeat 50% 50%;
+  background: url("/images/bg-filter.png") no-repeat 50% 50%;
   width: 267px;
   float: left;
   min-height: 470px;
@@ -3831,7 +3831,7 @@ __section {
   font-weight: 400;
 }
 .video {
-  background: url("/carousel/images/bg-video1.png") 50% 0%, url("/carousel/images/bg-video2.png") 50% 15%;
+  background: url("/images/bg-video1.png") 50% 0%, url("/images/bg-video2.png") 50% 15%;
   height: 460px;
   margin: 41px 0 41px 0;
   -webkit-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
@@ -4026,7 +4026,7 @@ __section {
 }
 .breadcrumbs {
   height: 85px;
-  background: url("/carousel/images/product/bg-breadcrumbs.png") no-repeat 50% 50%;
+  background: url("/images/product/bg-breadcrumbs.png") no-repeat 50% 50%;
   line-height: 85px;
 }
 .breadcrumbs .breadcrumbs__link {
@@ -4126,7 +4126,7 @@ __section {
 .pg-video {
   width: 854px;
   height: 321px;
-  background: url("/carousel/images/bg-video1.png") 50% 0%, url("/carousel/images/bg-video2.png") 50% 15%;
+  background: url("/images/bg-video1.png") 50% 0%, url("/images/bg-video2.png") 50% 15%;
   -webkit-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
   box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
@@ -4170,7 +4170,7 @@ __section {
 .pl-video {
   width: 854px;
   height: 321px;
-  background: url("/carousel/images/bg-video1.png") 50% 0%, url("/carousel/images/bg-video2.png") 50% 15%;
+  background: url("/images/bg-video1.png") 50% 0%, url("/images/bg-video2.png") 50% 15%;
   -webkit-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
   box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.75);
@@ -4375,7 +4375,7 @@ __section {
   margin-top: 40px;
 }
 .p-seo__snippet {
-  background: url("/carousel/images/pb-bg-snippet.png") no-repeat 50% 50%;
+  background: url("/images/pb-bg-snippet.png") no-repeat 50% 50%;
   height: 152px;
   margin-top: 50px;
   margin-bottom: 65px;
@@ -4442,7 +4442,7 @@ __section {
   padding-right: 2px;
 }
 .p-char-details__char-dot {
-  background-image: url("/carousel/images/bg-dot.png");
+  background-image: url("/images/bg-dot.png");
   background-position: 50% 62%;
   background-repeat-y: no-repeat;
   position: relative;
@@ -4542,7 +4542,7 @@ __section {
   width: 635px;
   height: 367px;
   float: right;
-  background: url("/carousel/images/bg-video1.png") 50% 0%, url("/carousel/images/bg-video2.png") 50% 15%;
+  background: url("/images/bg-video1.png") 50% 0%, url("/images/bg-video2.png") 50% 15%;
   padding: 38px 41px;
   -webkit-box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.75);
@@ -4783,7 +4783,7 @@ __section {
 }
 .video-page__video-main {
   margin: 0;
-  background: url("/carousel/images/bg-video1.png") 50% 0%, url("/carousel/images/bg-video-page.png") 50% 15%;
+  background: url("/images/bg-video1.png") 50% 0%, url("/images/bg-video-page.png") 50% 15%;
   padding: 19px 28px;
   height: 450px;
   border-radius: 5px;
@@ -4969,7 +4969,7 @@ __section {
   margin-right: 20px;
   width: 322px;
   height: 222px;
-  background: url("/carousel/images/cart-checkout-bg.png") no-repeat 50% 50%;
+  background: url("/images/cart-checkout-bg.png") no-repeat 50% 50%;
   margin-bottom: 80px;
 }
 .page-cart__btn-buy {
@@ -5352,7 +5352,7 @@ __section {
   width: 100%;
 }
 .hr--page-cart {
-  background: url("/carousel/images/hr-cart.png") no-repeat 50% 50%;
+  background: url("/images/hr-cart.png") no-repeat 50% 50%;
   height: 1px;
   width: 100%;
   display: inline-block;
@@ -5360,7 +5360,7 @@ __section {
   top: 15px;
 }
 .hr--page-checkout {
-  background: url("/carousel/images/hr-checkout.png") no-repeat 50% 50%;
+  background: url("/images/hr-checkout.png") no-repeat 50% 50%;
   height: 1px;
   width: 100%;
   display: inline-block;
