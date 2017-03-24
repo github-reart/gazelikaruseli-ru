@@ -1,0 +1,70 @@
+.cart
+  width 398px
+  height 228px
+  position absolute
+  background $white
+  top 90px
+  right 0px
+  border 1px solid $border-color
+  border-radius 3px
+  border-top none
+
+  &__img
+    float left
+    margin-top 14px
+    margin-right 14px
+    margin-left 12px
+
+  &__desc
+    float left
+    width 148px
+    height 50px
+    font-family $font
+    font-size $font-size+1
+    font-weight 500
+    color $second-font-color
+    line-height normal
+    margin-top 23px
+    text-transform none
+    margin-right 54px
+
+  &__price
+    float left
+    line-height 90px
+
+  &__info
+    height 90px
+    border-bottom 1px solid $border-color
+    line-height 90px
+
+  &__info--60px
+    height 60px
+    line-height 60px
+
+  &__qty
+    float left
+    margin-left 20px
+    font-family $font
+    font-size $font-size+1
+    font-weight 500
+    color $second-font-color
+    text-transform none
+
+  &__qty-price
+    float right
+    margin-right 5px
+    
+  &__tab
+    height 11px
+    background #f2f2f2
+    position relative
+    top -2px
+
+  &__tab-hr
+    border-top 1px solid $border-color
+    width 285px
+    position relative
+    z-index 10
+
+  &--hide
+    display none
