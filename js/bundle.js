@@ -107,6 +107,13 @@ $("#range").ionRangeSlider({
     type: "double",
     grid: true
 });
+$('.main-menu__item').mouseover(function () {
+   $(this).find('ul').show();
+});
+$('.main-menu__item').mouseleave(function () {
+    $(this).find('ul').hide();
+});
+
 $(".search").mouseover(function () {
     $(".search__text").addClass("search__text--hover");
     $(".btn--search").addClass("btn--search-hover");
